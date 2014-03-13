@@ -24,5 +24,5 @@ def main(num):
 	print "Number of Tails: %i" % (tails)
 	print resultString
 
-userInput = raw_input("Please enter a number of flips: ")
+userInput = input("Please enter a number of flips: ")
 main(userInput)
